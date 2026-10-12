@@ -80,24 +80,6 @@ This collection contains **11,860 ready-to-use APIs** that you can integrate dir
 
 ### [Featured APIs](./00-featured-apis/)
 
-<table width="100%">
-  <tr>
-    <td width="100%" align="center" valign="top">
-      <a href="https://apyhub.com/" target="_blank"><img src="./assets/featured/apyhub-banner.png" alt="ApyHub utility API catalog" width="560"></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" align="center" valign="top">
-      <h3>ApyHub Utility API Collection</h3>
-      <p><strong>200 APIs</strong></p>
-      <p>AI, files, data extraction, validation, SEO, HR, marketing, and application utilities.</p>
-      <p><a href="./00-featured-apis/apyhub-utility-apis/"><strong>Browse ApyHub APIs &rarr;</strong></a></p>
-    </td>
-  </tr>
-</table>
-
-[Sponsored partner placement policy](./SPONSORED_PARTNERS.md)
-
 ### Core API Categories
 
 - [Agents](./agents-apis-623/) - 623 APIs
