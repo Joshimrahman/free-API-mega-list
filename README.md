@@ -14,9 +14,13 @@
 <img src="https://img.shields.io/badge/Categories-24-green?style=for-the-badge&logo=tag" alt="Categories">
 <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=check-circle" alt="Status">
 <img src="https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=clock" alt="Updated">
+<br>
+
+<p align="center">
 <a href="https://trendshift.io/repositories/22373?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-22373" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/22373/daily?language=JavaScript" alt="#1 JavaScript Repository Of The Day | Trendshift" width="250" height="55"/></a>
 <a href="https://trendshift.io/repositories/22373?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-22373" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/22373/weekly?language=JavaScript" alt="#1 JavaScript Repository Of The Week | Trendshift" width="250" height="55"/></a>
 <a href="https://trendshift.io/repositories/22373?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-22373" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/22373/monthly?language=JavaScript" alt="#3 JavaScript Repository Of The Month | Trendshift" width="250" height="55"/></a>
+</p>
 
 ---
 
