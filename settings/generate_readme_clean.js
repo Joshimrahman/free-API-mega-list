@@ -114,12 +114,6 @@ const partnerCollections = [
         path: './00-featured-apis/apyhub-utility-apis/',
         count: 200,
         focus: 'AI, files, data extraction, validation, SEO, HR, marketing, and utilities'
-    },
-    {
-        name: 'CoreClaw Web, Social & Commerce Scraper APIs',
-        path: './00-featured-apis/coreclaw-scraper-apis/',
-        count: 118,
-        focus: 'Social media, e-commerce, search, jobs, maps, leads, and real estate'
     }
 ];
 const partnerListingCount = partnerCollections.reduce((sum, partner) => sum + partner.count, 0);
@@ -186,25 +180,16 @@ content += `## 📚 Table of Contents\n\n`;
 content += `### [Featured APIs](./00-featured-apis/)\n\n`;
 content += `<table width="100%">\n`;
 content += `  <tr>\n`;
-content += `    <td width="50%" align="center" valign="top">\n`;
+content += `    <td width="100%" align="center" valign="top">\n`;
 content += `      <a href="https://apyhub.com/" target="_blank"><img src="./assets/featured/apyhub-banner.png" alt="ApyHub utility API catalog" width="560"></a>\n`;
-content += `    </td>\n`;
-content += `    <td width="50%" align="center" valign="top">\n`;
-content += `      <a href="https://www.coreclaw.com/store/categories?fpr=chris69" target="_blank"><img src="./assets/featured/coreclaw-banner.png" alt="CoreClaw web data APIs and ready-to-use scrapers" width="560"></a>\n`;
 content += `    </td>\n`;
 content += `  </tr>\n`;
 content += `  <tr>\n`;
-content += `    <td width="50%" align="center" valign="top">\n`;
+content += `    <td width="100%" align="center" valign="top">\n`;
 content += `      <h3>ApyHub Utility API Collection</h3>\n`;
 content += `      <p><strong>200 APIs</strong></p>\n`;
 content += `      <p>AI, files, data extraction, validation, SEO, HR, marketing, and application utilities.</p>\n`;
 content += `      <p><a href="./00-featured-apis/apyhub-utility-apis/"><strong>Browse ApyHub APIs &rarr;</strong></a></p>\n`;
-content += `    </td>\n`;
-content += `    <td width="50%" align="center" valign="top">\n`;
-content += `      <h3>CoreClaw Web, Social &amp; Commerce Scraper APIs</h3>\n`;
-content += `      <p><strong>118 APIs</strong></p>\n`;
-content += `      <p>Social media, e-commerce, search, jobs, maps, lead generation, and real estate data.</p>\n`;
-content += `      <p><a href="./00-featured-apis/coreclaw-scraper-apis/"><strong>Browse CoreClaw Scrapers &rarr;</strong></a></p>\n`;
 content += `    </td>\n`;
 content += `  </tr>\n`;
 content += `</table>\n\n`;
