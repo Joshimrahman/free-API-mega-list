@@ -31,8 +31,7 @@ const apyhubUrls = [...apyhubReadme.matchAll(/^\| \[[^\]]+\]\((https:\/\/apyhub\
 const uniqueApyhubUrls = [...new Set(apyhubUrls)];
 
 check(uniqueApyhubUrls.length === 200, `Expected 200 unique ApyHub API links, found ${uniqueApyhubUrls.length}`);
-check(mainReadme.includes('href="./00-featured-apis/apyhub-utility-apis/"'), 'Main README is missing the ApyHub collection');
-check(mainReadme.includes('./assets/featured/apyhub-banner.png'), 'Main README is missing the ApyHub banner');
+check(!mainReadme.toLowerCase().includes('apyhub'), 'Main README still shows the ApyHub featured block (hidden 2026-10-11)');
 check(featuredLanding.includes('href="./apyhub-utility-apis/"'), 'Featured APIs page is missing the ApyHub collection');
 check(featuredLanding.includes('../assets/featured/apyhub-banner.png'), 'Featured APIs page is missing the ApyHub banner');
 check(apyhubReadme.includes('../../assets/featured/apyhub-banner.png'), 'ApyHub page is missing its featured banner');
@@ -41,7 +40,6 @@ check(!fs.existsSync(path.join(root, '00-featured-apis', 'coreclaw-scraper-apis'
 check(!mainReadme.toLowerCase().includes('coreclaw'), 'Main README still references CoreClaw');
 check(!mainReadme.includes('fpr=chris69'), 'Main README still contains CoreClaw affiliate tracking');
 check(!featuredLanding.toLowerCase().includes('coreclaw'), 'Featured APIs page still references CoreClaw');
-check(mainReadme.includes('(./SPONSORED_PARTNERS.md)'), 'Main README is missing the sponsored placement policy');
 check(!mainReadme.includes('All links include affiliate tracking'), 'Main README contains the removed affiliate-tracking note');
 check(readmeGenerator.includes("name: 'ApyHub Utility API Collection'"), 'README generator is missing the ApyHub partner collection');
 check(readmeGenerator.includes('### Sponsored: KamdenAI'), 'README generator is missing the KamdenAI sponsor block');
